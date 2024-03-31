@@ -1,17 +1,30 @@
 
 .tac-one-regular {
-    font-family: "Tac One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-  }
+  font-family: "Tac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 90px;
+  color: rgb(255, 255, 255); /* Color base del texto */
+  text-shadow: -6px -10px 20px rgb(136, 0, 0), 4px 4px 20px rgb(116, 104, 0), 10px 20px 20px rgb(11, 90, 0);
+}
 
-  .parisienne-regular {
-    font-family: "Parisienne", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: azure;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+
 .container
 {
     background-color: aqua;
@@ -19,21 +32,18 @@
     height: 100px;
 }
 
-.container-fluid
-{
-  /*background-color: coral;   
-  height: 100px;*/
-}
+/*
+.container-fluid*/
+
+
 .row
 {
     background-color: gold;
     margin: 5px;
 }
+
 .col{
     background-color: plum;
     margin: 5px;
 }
 
-.html{
-  background-color: rgba(255, 0, 0, 0.418); /* Por ejemplo: #f0f0f0 o blue, etc. */
-}
